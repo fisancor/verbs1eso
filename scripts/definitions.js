@@ -42,7 +42,7 @@ const QMAKE_SEND_WEBAPP = 4;
 const QMAKE_SEND_NODEJS = 5;
 const QMAKE_SEND_NODEJS_LOCAL = 6;  
 
-const QUIZ_KEYWORD = "0TRpX9GPgOKE&MpE";
+const QUIZ_KEYWORD = "ez2bupT#fP6qC#Wa";
 
 const USER_LOGIN_ANONYMOUS = "anonymous";
 const USER_EMAIL_ANONYMOUS = "anonymous@anonymous.nowhere";
@@ -54,7 +54,7 @@ const options =
 	id: 0,
 	numOfQuestions: 40,
 	notValuatedQuestionsArray: [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
-	maxtime: 1500,
+	maxtime: 0,
 	maxmark: 10,
 	minmark: 0,
 	roundmark: 1,
@@ -71,7 +71,7 @@ const options =
 	uniqueOkButtonPos: 'BOTTOM',
 	showTimeout: true,
 	allowAbandonFromQuiz: false,
-	valuateAfterAbandon: true,
+	valuateAfterAbandon: false,
 	needValuateQuiz: true,
 	showFullReport: true,
 	showFullQstReport: true,
@@ -100,8 +100,8 @@ const options =
 	hideStatusBar: false,
 	includeProfile: true,
 	author: "Fidel C. San Gregorio",
-	argument: "FILL THE GAPS WITH THE CORRECT FORMS OF THE \"IRREGULAR VERBS\"",
-	company: "Mª Auxiliadora - Lugo",
+	argument: "Irregular Verbs - 1ESO",
+	company: "Lugo",
 	quiz_date: "2024-25",
 	playSounds: false,
 	hasIntroText: true,
